@@ -1,0 +1,9 @@
+development:
+ adapter: mysql2
+ host: mobile.linkcare.es
+ database: ruby1
+ user: root
+ password: linkcare
+
+ pool: 5
+ timeout: 5000

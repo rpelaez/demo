@@ -1,4 +1,9 @@
 MiPrimeraWebRuby::Application.routes.draw do
+  resources(:cases, {:only => [:show, :index]})
+  get "cases/show"
+
+  get "cases/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
